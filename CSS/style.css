@@ -1,0 +1,138 @@
+body{
+  margin: 0;
+  padding: 0;
+  list-style:none;
+  font-family: "Hiragino Kaku Gothic";
+}
+*{
+  box-sizing: border-box;
+}
+.container{
+  width:870px;
+  margin:0 auto;
+  font-size: 0;
+  display: block;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+header{
+  height: 70px;
+  border-bottom: 1px solid #eee;
+  z-index: 10;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  background-color: white;
+}
+nav{
+  display: flex;
+  margin-left: 270px;
+}
+header a{
+  display:block;
+  padding-right:15px;
+  padding-left:15px;
+  line-height: 70px;
+  font-weight: bold;
+  font-size: 20px;
+}
+header a:hover{
+  background-color: #c0c0c0;
+}
+.top-wrapper{
+  height: 700px;
+}
+.top-wrapper h1{
+  text-align: center;
+  font-size: 60px;
+  letter-spacing: 10px;
+  padding-top: 200px;
+}
+.about-wrapper{
+  height:700px;
+  background-color: #c0c0c0;
+}
+h2{
+  font-size: 40px;
+  padding-top:100px;
+  text-align: center;
+  margin-top: 0;
+}
+.main{
+  display:flex;
+  font-size: 20px;
+}
+.myface{
+  border-radius: 150px;
+}
+.main p{
+  opacity: 0.6;
+  text-align: left;
+  margin-left: 40px;
+  font-size: 20px;
+}
+.skill-wrapper{
+  height:700px;
+  background-color:#336699;
+}
+.skills{
+  font-size: 150px;
+  display: flex;
+  text-align: center;
+}
+.skill{
+  width: 33.3%;
+}
+.skill-name{
+  font-size: 30px;
+}
+.skill-text{
+  font-size: 15px;
+  width: 80%;
+  margin: 25px;
+  padding:0;
+  border: 0;
+}
+.contact-wrapper{
+  height:400px;
+  background-color: #c0c0c0;
+  text-align: center;
+}
+.contact-wrapper h3{
+  font-size: 40px;
+  padding-top: 20px;
+  margin-top: 0;
+}
+.contact-wrapper p{
+  font-size:20px;
+}
+.contact-wrapper span{
+  font-size: 100px;
+}
+.footer-top{
+  height: 50px;
+  background-color: #eee;
+}
+.btn{
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer-bottom{
+  height: 100px;
+  background-color: black;
+}
+.footer-bottom p{
+  font-size: 10px;
+  color: white;
+  line-height: 100px;
+  text-align: center;
+  opacity: 0.7;
+  display: block;
+  margin-top: 0;
+}
