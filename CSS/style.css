@@ -92,9 +92,8 @@ h2{
 .skill-text{
   font-size: 15px;
   width: 80%;
-  margin: 25px;
+  margin-left: 25px;
   padding:0;
-  border: 0;
 }
 .contact-wrapper{
   height:400px;
