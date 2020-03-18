@@ -41,13 +41,13 @@ header a:hover{
   background-color: #c0c0c0;
 }
 .top-wrapper{
-  height: 700px;
+  height: 450px;
 }
 .top-wrapper h1{
   text-align: center;
   font-size: 60px;
   letter-spacing: 10px;
-  padding-top: 200px;
+  padding-top: 100px;
 }
 .about-wrapper{
   height:700px;
