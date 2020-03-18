@@ -8,7 +8,7 @@ body{
   box-sizing: border-box;
 }
 .container{
-  width:870px;
+  width:100%;
   margin:0 auto;
   font-size: 0;
   display: block;
@@ -29,7 +29,7 @@ header{
 }
 nav{
   display: flex;
-  margin-left: 270px;
+  margin-left: 510px;
 }
 header a{
   display:block;
@@ -64,15 +64,17 @@ h2{
 .main{
   display:flex;
   font-size: 20px;
+  width: 60%;
+  margin: 0 auto;
 }
 .myface{
-  border-radius: 150px;
+  border-radius: 100px;
 }
 .main p{
   opacity: 0.6;
   text-align: left;
   margin-left: 40px;
-  font-size: 20px;
+  font-size: 17px;
 }
 .skill-wrapper{
   height:700px;
@@ -86,14 +88,18 @@ h2{
 .skill{
   width: 33.3%;
 }
+.skill-icon{
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
 .skill-name{
   font-size: 30px;
 }
 .skill-text{
   font-size: 15px;
-  width: 80%;
-  margin-left: 25px;
-  padding:0;
+  text-align: left;
 }
 .contact-wrapper{
   height:400px;
