@@ -10,9 +10,10 @@
     flex-direction: column;
   }
   .main p{
+    margin-top: 10px;
     margin-left: 0;
   }
-  .skills{
+  .skill-icon{
     flex-direction: column;
   }
 }
