@@ -1,4 +1,3 @@
-/*iphone XS MAX,iphone XRが414pxなので、420pxに設定*/
 @media(max-width:480px){
   *{
     width: auto;
@@ -9,11 +8,15 @@
   .main{
     flex-direction: column;
   }
-  .main p{
-    margin-top: 10px;
-    margin-left: 0;
+  .myface{
+    width: 200px;
+    height: 200px;
+    margin:0 auto;
+  }
+  .about-text{
+    padding-top: 30px;
   }
   .skill-icon{
-    flex-direction: column;
+    width: 100%;
   }
 }
