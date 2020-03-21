@@ -1,5 +1,5 @@
 $(function(){
-  $("header a").click(function(){
+  $("a").click(function(){
     var id=$(this).attr('href');
     var position=$(id).offset().top;
     $('html,body').animate({
