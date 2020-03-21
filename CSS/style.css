@@ -28,10 +28,20 @@ header{
   left:0;
   background-color: white;
 }
+.bar-nav{
+  float: right;
+  display: none;
+}
+.fa-bars{
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 25px;
+}
 ul{
   display: flex;
   justify-content: center;
-  margin-right: 20px;
+  margin-right: 15px;
 }
 nav a{
   display:inline-block;
