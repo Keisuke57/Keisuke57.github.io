@@ -2,13 +2,15 @@
   *{
     width: auto;
   }
-  nav a{
-    font-size:15px;
+  header{
+    display: none;
+  }
+  .bar-nav{
+    display: block;
   }
   .main{
     flex-direction: column;
   }
-
   .about-text{
     padding-top: 30px;
   }
@@ -21,4 +23,5 @@
   .html5,.css3{
     padding-bottom: 30px;
   }
+
 }
