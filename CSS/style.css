@@ -31,6 +31,7 @@ header{
 ul{
   display: flex;
   justify-content: center;
+  margin-right: 20px;
 }
 nav a{
   display:inline-block;
@@ -43,7 +44,7 @@ header a:hover{
   background-color: #c0c0c0;
 }
 .top-wrapper,.about-wrapper,.skill-wrapper{
-  padding: 100px 0px 100px 0px;
+  padding: 100px 0px;
 }
 .top-wrapper h1{
   text-align: center;
