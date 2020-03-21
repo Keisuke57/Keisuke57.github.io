@@ -8,11 +8,7 @@
   .main{
     flex-direction: column;
   }
-  .myface{
-    width: 200px;
-    height: 200px;
-    margin:0 auto;
-  }
+
   .about-text{
     padding-top: 30px;
   }
