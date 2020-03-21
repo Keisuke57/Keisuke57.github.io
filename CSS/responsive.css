@@ -1,0 +1,18 @@
+/*iphone XS MAX,iphone XRが414pxなので、420pxに設定*/
+@media(max-width:480px){
+  *{
+    width: auto;
+  }
+  nav a{
+    font-size:15px;
+  }
+  .main{
+    flex-direction: column;
+  }
+  .main p{
+    margin-left: 0;
+  }
+  .skills{
+    flex-direction: column;
+  }
+}
