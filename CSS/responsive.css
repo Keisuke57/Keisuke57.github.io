@@ -16,7 +16,10 @@
   .about-text{
     padding-top: 30px;
   }
-  .skill-icon{
+  .skills{
+    flex-direction: column;
+  }
+  .skill{
     width: 100%;
   }
 }
