@@ -149,3 +149,9 @@ h2{
   display: block;
   margin-top: 0;
 }
+#b{
+  display: none;
+}
+#b li{
+  list-style: none;
+}
