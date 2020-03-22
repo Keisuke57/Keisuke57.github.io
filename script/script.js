@@ -6,4 +6,7 @@ $(function(){
       'scrollTop':position
     },500);
   });
+  $('#a').click(function(){
+    $('#b').fadeIn();
+  });
 });
