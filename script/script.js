@@ -6,7 +6,10 @@ $(function(){
       'scrollTop':position
     },500);
   });
-  $('#a').click(function(){
-    $('#b').fadeIn();
+  $('#bar-nav').click(function(){
+    $('#modal-nav').fadeIn();
+  });
+  $('#modal-nav span,#modal-nav a').click(function(){
+    $('#modal-nav').fadeOut();
   });
 });
