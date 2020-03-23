@@ -22,21 +22,24 @@
       </div>
     </header>
     <main>
-      <!--bar-navはスマホの時に表示-->
-      <div class="bar-nav" id="a">
+      <!--スマホ表示の時のみ-->
+      <div class="bar-nav" id="bar-nav">
         <span class="fas fa-bars"></span>
       </div>
-
-      <div class="b" id="b">
-        <nav>
-          <ul>
-            <li><a href="#about">about</a></li>
-            <li><a href="#skill">skill</a></li>
-            <li><a href="#contact">contact</a></li>
-          </ul>
-        </nav>
-      </div>
+      <!--ここまで-->
       <div class="top-wrapper" id="top">
+        <!--スマホ表示の時のみ-->
+        <div class="modal-nav" id="modal-nav">
+          <nav>
+            <span class="fas fa-times"></span>
+            <ul>
+              <li><a href="#about">about</a></li>
+              <li><a href="#skill">skill</a></li>
+              <li><a href="#contact">contact</a></li>
+            </ul>
+          </nav>
+          <!--ここまで-->
+        </div>
         <div class="container">
           <h1>KEISUKE ENDO's<br>portfolio</h1>
         </div>
@@ -85,21 +88,12 @@
           <h3>contact</h3>
           <p>お問い合わせは<br>twitterのDMの方にお願いいたします。</p>
           <a href="https://twitter.com/0KPJDDziNJgKbhJ" target="_blank"><span class="fab fa-twitter-square"></span></a>
-          <div class="twitter-id">@0KPJDDziNJgKbhJ</div>
         </div>
       </div>
     </main>
     <footer>
-      <div class="footer-top">
-        <div class="container">
-          <a href="#top" class="btn">Page Top</a>
-        </div>
-      </div>
-      </header>
-      <div class="footer-bottom">
-        <div class="container">
-          <p>Copyright©ENDO KEISUKE. All Rights Reserved</p>
-        </div>
+      <div class="container">
+        <p>Copyright©ENDO KEISUKE. All Rights Reserved</p>
       </div>
     </footer>
 
